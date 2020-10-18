@@ -1,0 +1,48 @@
+.component-chat-body {
+    text-align: center;
+    /*border: 1px solid #6C6C80;*/
+    border-radius: 8px;
+    height: 500px;
+    width: 500px;
+}
+
+.component-chat-body #header {
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border-bottom: 5px solid #F0F0F5;
+}
+
+.component-chat-body #body {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    height: 400px;
+    padding: 20px;
+    overflow: auto;
+}
+
+.component-chat-body #footer {
+    display: flex;
+    align-items: flex-end;
+    border-top: 5px solid #F0F0F5;
+    height: 50px;
+}
+
+.component-chat-body #footer textarea {
+    width: 80%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 16px;
+    resize: none;
+}
+
+.component-chat-body #footer button {
+    border: 0;
+    border-radius: 8px;
+    margin-left: 10px;
+    background: var(--primary-color);
+    width: 20%;
+    height: 100%;
+
+}
